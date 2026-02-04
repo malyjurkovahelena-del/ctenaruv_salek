@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/style.css" type="text/css">
+    <title>Čtenářův šálek</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="nav-logo text-white fw-bold" href="index.html" style="text-decoration: none; color: inherit;">Čtenářův šálek</a>
+
+
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#menu">O nás</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aktuality.html">Aktuality</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#seznamy">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#fotogalerie">Fotogalerie</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Info</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+
+      <section class ="onas" class="py-5">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-5 text-center order-last order-lg-first">
+                        <img src="pic/logo.png" class="img-fluid hero-img" alt="Logo Čtenářův šálek">
+                    </div>
+                    <div class="col-lg-7">
+                        <h1 class="display-4 mb-4">O nás</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+                    </div>
+                </div>
+            </div>
+             <br>
+        </section>
+   
+
+    <!--zde mezera mezi o nás a aktuality-->
+    <div class="mezera1"></div>
+ 
+
+
+    <!--Aktuality-->
+
+    <section id="aktuality" class="py-5 bg-bisque">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <h1 class="aktuality-nap mb-4">Aktuality</h1>
+                        <p>Zde najdete vše, co se u nás právě děje. Od autorských čtení až po nové sezónní drinky v naší nabídce. Sledujte nás, ať vám nic neuteče!</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="AktualityRamecek">
+                            <div class="AktualityCasti">
+                                <h6>Aktualita 1</h6>
+                                <p class="mb-0">Včera bylo otevřeno nové dětské oddělení s pohádkami.</p>
+                            </div>
+                            <div class="AktualityCasti">
+                                <h6>Aktualita 2</h6>
+                                <p class="mb-0">Zítra se můžete zúčastnit besedy se známým autorem.</p>
+                            </div>
+                            <div class="AktualityCasti">
+                                <h6>Aktualita 3</h6>
+                                <p class="mb-0">Za 2 týdny proběhne velký výprodej vyřazených knih.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <!--Menu-->
+    <div class="mezera1"></div>
+    <div>
+        <h1 class="text-center">Menu</h1>
+    </div>
+
+
+    <section class="py-5" id="seznamy">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <a href="jidelni-listek.html" style="text-decoration: none; color: inherit;">
+                    <div class="menu-card">
+                        <div class="menu-img"><img src="pic/stažený soubor.jpg"></div>
+                        <h5>Jídelní lístek</h5>
+                    </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <a href="napojovy-listek.html" style="text-decoration: none; color: inherit;">
+                    <div class="menu-card">
+                        <div class="menu-img"><img src="pic/stažený soubor.jpg"></div>
+                        <h5>Nápojový lístek</h5>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="seznam-knizek.html" style="text-decoration: none; color: inherit;">
+                    <div class="menu-card">
+                        <div class="menu-img"><img src="pic/stažený soubor.jpg"></div>
+                        <h5>Seznam knížek</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Fotogalerie-->
+    <div class="mezera1"></div>
+    
+
+
+   <section class="py-5" id="fotogalerie">
+            <div class="container-fluid p-0">
+                <div class="row g-0 align-items-center">
+                    <div class="col-lg-7">
+                        <img src="pic/photogallery.jpg" class="img-fluid w-100 galerie" alt="Fotogalerie">
+                    </div>
+                    <div class="col-lg-5 p-5 text-center">
+                        <h2 class="nadpisGalerie" class="mb-4">Fotogalerie</h2>
+                        <p>Nahlédněte do atmosféry naší kavárny skrze objektiv. Každý kout u nás má svůj vlastní příběh.</p>
+                        <button class="tlacitkoFoto mt-3">Zobrazit více</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <div class="mezera1"></div>
+
+
+
+
+
+    <footer class="kontakt">
+        <h1 class="nadpisK">Čtenářův šálek</h1>
+        <p>e-mail:-------</p>
+        <p>adresa:-------</p>
+        <p>telefon: +420 604 796 466</p>
+    </footer>
+</body>
+
+</html>

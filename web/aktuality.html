@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/style.css" type="text/css">
+    <script src="javascript/script.js"></script>
+    <title>Aktuality</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="nav-logo text-white fw-bold" href="index.html" style="text-decoration: none; color: inherit;">Čtenářův šálek</a>
+
+
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html#menu">O nás</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aktuality.html">Aktuality</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#seznamy">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#fotogalerie">Fotogalerie</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Info</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+
+    <section class="onas" class="py-5">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <h1 class="display-4 mb-4 stred">Aktuality</h1>
+            </div>
+        </div>
+        <br>
+    </section>
+
+
+    <!--zde mezera mezi o nás a aktuality-->
+    <div class="mezera1"></div>
+<br>
+    <h1 class="stred">Nabízené akce</h1>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+
+                    <div class="card" onclick="showDetail('akce1')">
+                        <h2>Společné čtení</h2>
+                        <p>Klikni pro detail</p>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+
+                    <div class="card" onclick="showDetail('akce2')">
+                        <h2>Dětské mluvení</h2>
+                        <p>Klikni pro detail</p>
+
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <h2>Seznámení s novinkami</h2>
+                        <p>zatím v přípravě</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    </div>
+
+    <div id="detail" class="detail hidden">
+        <h2 class="nadpisTitle stred" id="detail-title"></h2>
+        <p class="popisek stred" id="detail-description"></p>
+        <br>
+        <form>
+
+            <h2 class="stred">Přihláška</h2>
+
+            <div class="row g-3 justify-content-center align-items-center ">
+                <div class="col-md-6">
+                    <label class="form-label">Jméno a příjmení</label>
+                    <input type="text" class="form-control" placeholder="Jan Novák" required>
+                </div>
+                    <br>
+                <div class="col-md-6">
+                    <label class="form-label">Telefonní číslo</label>
+                    <input type="tel" class="form-control" placeholder="+420 777 123 456" required>
+                </div>
+                    <br>
+                <div class="col-md-6">
+                    <label class="form-label">Počet osob</label>
+                    <input type="number" class="form-control" min="1" value="1" required>
+                </div>
+                    <br>
+                <div class="col-md-6">
+                    <label class="form-label">Poznámka</label>
+                    <textarea class="form-control" rows="4" placeholder="Např. přijdu o něco později…"></textarea>
+                </div>
+                <br>
+                <div class="col-md-6">
+                <button class="tlacitkoFoto" onclick="prihlasitSe()">Přihlásit se</button>
+                </div>
+                </div>
+        </form>
+
+    
+    </div>
+
+    <div class="mezera1"></div>
+
+    <footer class="kontakt">
+        <h1 class="nadpisK">Čtenářův šálek</h1>
+        <p>e-mail:-------</p>
+        <p>adresa:-------</p>
+        <p>telefon: 604 796 466</p>
+        <img src="pic/instagram_white.png" width="50">
+    </footer>
+</body>
+
+</html>

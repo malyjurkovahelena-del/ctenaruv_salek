@@ -1,0 +1,313 @@
+body {
+    background-color: bisque;
+    overflow-x: hidden; 
+}
+
+.kontakt {
+    color: white;
+    background-color: #964734;
+    padding: 50px;
+    font-size: 20px;
+}
+
+.nadpisK {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Adlery";
+}
+
+.nav-logo {
+    font-family: "Adlery";
+    font-size: 40px;
+}
+
+.navbar {
+    background-color: #5b1c0f;
+    padding: 20px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.navbar-nav .nav-link {
+    background-color: #7b3323;
+    color: white !important;
+    margin: 5px 10px;
+    padding: 10px 20px !important;
+    border-radius: 4px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.navbar-nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 60px;
+    padding: 0 25px;
+
+    background-color: #7b3323;
+    color: white;
+    text-decoration: none;
+
+    font-family: "Adlery";
+    font-size: 24px;
+
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.navbar-nav a:hover {
+         transform: scale(1.1)
+}
+
+
+@font-face {
+    font-family: "Adlery";
+    src: url("Adlery_TRIAL.ttf");
+}
+
+@font-face {
+    font-family: "Aileron";
+    src: url("aileron.regular.otf");
+}
+
+p {
+    font-family: "Aileron";
+    font-size: 20px;
+}
+
+.mezera1 {
+    width: 100%;
+    height: 10px;
+    background-color: #4d1407;
+
+}
+
+.mezera2 {
+    width: 100%;
+    height: 40px;
+    background-color: #6d3c05de;
+
+}
+
+.aktuality-nap
+{
+    text-align: center;
+    font-family: "Adlery";
+
+}
+
+
+.AktualityRamecek {
+    background-color: #db8b2c;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.AktualityCasti {
+    background: #f1a74f;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.AktualityCasti h6 {
+
+    font-size: 20px;
+    font-family: "Aileron";
+    font-weight: 600;
+
+}
+
+.AktualityCasti p {
+
+    font-size: 20px;
+    font-family: "Aileron";
+    
+    
+}
+
+h1 {
+    font-family: "Adlery";
+    font-size: 50px;
+}
+
+.menuPolaroid {
+    display: flexbox;
+    justify-content: space-evenly;
+    width: 80%;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+
+
+.big {
+    transition: 0.3s ease-out;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #722e1e;
+
+    border-radius: 5px;
+}
+
+.big:hover {
+    transform: scale(1.1);
+}
+
+.menu-img {
+
+    height: 500px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.menu-img img {
+
+    height: 500px;
+    padding: 10px;
+}
+
+.menu-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.menu-card:hover {
+    transform: scale(1.05);
+}
+
+.menu-card h5 {
+    font-family: "Adlery";
+    font-size: 35px;
+}
+
+/* Responzivita pro mobily */
+@media (max-width: 991px) {
+    .navbar-nav { gap: 10px; padding: 20px 0; }
+    .gallery-hero { height: 300px; }
+    .hero-img { max-width: 80%; margin-bottom: 20px; }
+    p { text-align: left; }
+}
+
+.galerie {
+    height: 500px;
+    object-fit: cover;
+}
+
+.tlacitkoFoto {
+    background-color: #964734;
+    border: none;
+    color: white;
+    padding: 12px 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.tlacitkoFoto:hover {
+    background-color: #5b1c0f;
+    letter-spacing: 1px;
+}
+
+#fotogalerie{
+    background-color: bisque;
+     color: white;
+    text-decoration: none;
+
+    font-family: "Adlery";
+    font-size: 50px;
+}
+
+.nadpisGalerie{
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+.onas{
+    background-image: linear-gradient(rgba(91, 28, 15, 0.5), rgba(0, 0, 0, 0.7)),url(bg_onas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    color: white;
+    
+}
+
+/*aktuality*/
+.stred{
+    text-align: center;
+}
+
+
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  cursor: pointer;
+  width: 400px;
+  text-align: center;
+  font-family: "Adlery";
+}
+
+.card:hover {
+  background-color: #f5f5f5;
+}
+
+.detail {
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px solid #333;
+}
+
+.hidden {
+  display: none;
+  text-align: center;
+}
+
+.nadpisTitle{
+    color: black;
+    text-decoration: none;
+    font-family: "Adlery";
+    font-size: 50px;
+}
+.popisek{
+    color: black;
+    text-decoration: none;
+    font-family: "Aileron";
+    font-size: 20px;
+}
+
+form{
+    color: black;
+    text-decoration: none;
+    font-family: "Aileron";
+    font-size: 20px;
+}
+
+/*nápojový lístek*/
+.MenuVzhledTmave {
+    background-color: #5b1c0f;
+    padding: 20px;
+    border-radius: 12px;
+    font-family: "Aileron";
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.MenuVzhledSvetle {
+    background-color: #f5f5dc;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}   
