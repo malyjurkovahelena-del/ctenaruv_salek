@@ -1,5 +1,5 @@
 body {
-    background-color: bisque;
+    background-color:  rgb(243, 227, 209);
     overflow-x: hidden; 
 }
 
@@ -216,7 +216,7 @@ h1 {
 }
 
 #fotogalerie{
-    background-color: bisque;
+    background-color:  rgb(243, 227, 209);
      color: rgb(0, 0, 0);
     text-decoration: none;
 
@@ -305,9 +305,38 @@ form{
     font-size: 18px;
     margin-bottom: 40px;
 }
-.MenuVzhledSvetle {
-    background-color: #f5f5dc;
-    padding: 20px;
+.MenuVzhledTmave {
+    background-color: #5b1c0f;
+    padding: 7px;
+    border-radius: 8px;
+    font-family: "Aileron";
+    font-size: 18px;
+
+}
+
+.table-custom {
     border-radius: 12px;
-    margin-bottom: 20px;
-}   
+    overflow: hidden;
+    background: white;
+    margin-bottom: 0;
+}
+
+
+
+.table-custom td, .table-custom th {
+    padding: 14px;
+}
+
+.category-row td {
+    background: #964734;
+    font-weight: bold;
+    font-family: "Adlery";
+    font-size:30px;
+    color: white;
+   
+}
+
+a
+{
+
+color: white;}
