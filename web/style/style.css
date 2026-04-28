@@ -10,6 +10,10 @@ body {
     font-size: 20px;
 }
 
+.kontakt a {
+    text-decoration: none;
+}
+
 .nadpisK {
     text-align: center;
     font-size: 50px;
